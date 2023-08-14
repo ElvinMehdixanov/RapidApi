@@ -37,7 +37,7 @@ public class TurboController {
         for (CarsDataDto car: cars.getBody()) {
             System.out.println(car.getMake());
 
-            if (car.getMake().equals("Volvo")){
+            if (car.getMake().equals("GMC")){
                 return new ResponseEntity<>("Yes We have volvo", HttpStatus.OK);
             }
 
